@@ -1,0 +1,36 @@
+#right-ear, #left-ear {
+  transition: all .4s linear;
+}
+
+#bear:hover #right-ear,
+#bear:hover #left-ear {
+  transform: translateY(-10);
+}
+
+#right-eye, #left-eye {
+  animation: bigspook 2s linear infinite;
+}
+
+@keyframes bigspook {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(8px);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateX(-8px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+
+}
