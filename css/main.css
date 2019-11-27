@@ -4,7 +4,7 @@
 
 #bear:hover #right-ear,
 #bear:hover #left-ear {
-  transform: translateY(-10);
+  transform: translateY(-10px);
 }
 
 #right-eye, #left-eye {
